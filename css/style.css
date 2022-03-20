@@ -44,3 +44,8 @@ body{
     width: 20vw;
     text-align: center;
 }
+.col-12 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
