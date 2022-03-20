@@ -53,5 +53,4 @@ $(document).ready(function(){
         alert('YYour total cost for the pizza and delivery will be.');
     });
 
-
 });
