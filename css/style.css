@@ -44,8 +44,12 @@ body{
     width: 20vw;
     text-align: center;
 }
-.footer .container{
-    /* margin-top: 3%; */
+.footer img{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.footer p{
+    /* margin-bottom: 2%; */
 }
 .col-12 img{
     height: 30px;
@@ -56,4 +60,11 @@ body{
     /* margin-top: 1%; */
     background-color: rgb(106, 111, 111);
     color: white;
+}
+#deliveryContainer button{
+    margin-top: 3.4%;
+    margin-bottom: 2%;
+}
+#deliveryContainer .form-select{
+    margin-top: 3%;
 }
