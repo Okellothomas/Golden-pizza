@@ -44,8 +44,16 @@ body{
     width: 20vw;
     text-align: center;
 }
+.footer .container{
+    /* margin-top: 3%; */
+}
 .col-12 img{
     height: 30px;
     width: 30px;
     border-radius: 50%;
+}
+.footer{
+    /* margin-top: 1%; */
+    background-color: rgb(106, 111, 111);
+    color: white;
 }
