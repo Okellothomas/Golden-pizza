@@ -58,7 +58,17 @@ body{
     font-family: 'Manrope', sans-serif;
     color: rgb(22, 22, 27);
 }
-#number{
+#number1{
+    border: 1px solid rgb(142, 142, 158);
+    width: 20vw;
+    text-align: center;
+}
+#number2{
+    border: 1px solid rgb(142, 142, 158);
+    width: 20vw;
+    text-align: center;
+}
+#number3{
     border: 1px solid rgb(142, 142, 158);
     width: 20vw;
     text-align: center;
