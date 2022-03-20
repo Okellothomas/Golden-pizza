@@ -43,9 +43,8 @@ $(document).ready(function(){
     // Message and the destination of delivery.
     $('button#destination').click(function(e){
         e.preventDefault();
-        let toppingName3 = $('#topping3').find(":selected").text();
-        alert(toppingName3);
-        alert('Your order will be delivered to:');
+        let destination = $('#destination').find(":selected").text();
+            alert('Your order will be delivered to: '+ destination + " Thank you and come again!");
     });
 
     // returns total amount of order charged. delivery + cost of pizza.
