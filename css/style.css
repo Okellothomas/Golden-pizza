@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Manrope:wght@600&family=Source+Serif+Pro&display=swap');
 body{
     margin-left: 12%;
     margin-right: 12%;
@@ -20,9 +21,26 @@ body{
 }
 .card-img-top{
     text-align: center;
-    height: 25vh;
-    width: 13vw;
-    margin-left: 18%;
+    height: 23vh;
+    width: 11vw;
+    margin-left: 26%;
     border: 2px solid rgb(109, 109, 95);
     border-radius: 50%;
+}
+.card h5{
+    color: rgb(59, 27, 27);
+}
+.card-text{
+    font-family: 'Manrope', sans-serif;
+    color: rgb(22, 22, 27);
+}
+#number{
+    border: 1px solid rgb(142, 142, 158);
+    width: 20vw;
+    text-align: center;
+}
+.form-select{
+    border: 1px solid rgb(142, 142, 158);
+    width: 20vw;
+    text-align: center;
 }
