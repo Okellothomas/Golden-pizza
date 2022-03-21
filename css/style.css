@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Manrope:wght@600&family=Source+Serif+Pro&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Manrope:wght@600&family=Source+Serif+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Akronim&family=Inspiration&family=Manrope:wght@600&family=Source+Serif+Pro&display=swap');
 body{
     margin-left: 12%;
@@ -83,7 +83,7 @@ body{
     margin-bottom: 1%;
 }
 .footer p{
-    /* margin-bottom: 2%; */
+  
 }
 .col-12 img{
     height: 30px;
@@ -91,7 +91,7 @@ body{
     border-radius: 50%;
 }
 .footer{
-    /* margin-top: 1%; */
+   
     background-color: rgb(106, 111, 111);
     color: white;
 }
@@ -101,4 +101,338 @@ body{
 }
 #deliveryContainer .form-select{
     margin-top: 3%;
+} */
+
+/* @media (max-width: 950px) {
+    body{
+        margin-left: 11%;
+        margin-right: 11%;
+        background-size: contain;
+        background-repeat: repeat;
+    }
+    .card{
+        text-align: center;
+    }
+
+    #carouselExampleDark img{
+        width: 100%;
+        height: 40vh;
+    }
+    #icon{
+        height: 50px;
+        width: 50px;
+        border: 1px solid rgb(171, 179, 171);
+        border-radius: 50px;
+    }
+    #navtitle{
+        color: gold;
+        font-family: 'Inspiration', cursive;
+        font-size: 27px;
+        font-weight: bolder;
+    }
+    #navbarNav{
+        margin-left: 50%;
+    }
+    .nav-link{
+        font-family: 'Akronim', cursive;
+        color: goldenrod;
+        font-size: 25px;
+
+    }
+    .nav-link:hover{
+        font-family: 'Inspiration', cursive;
+        font-size: 25px;
+        border: 2px solid gray;
+        background-color: aqua;
+        color: rgb(191, 194, 31);
+        border-radius: 70%; 
+    }
+    .card-img-top{
+        text-align: center;
+        height: 9vh;
+        width: 10vw;
+        margin-left: 26%;
+        border: 2px solid rgb(109, 109, 95);
+        border-radius: 50%;
+    }
+    .card h5{
+        color: rgb(59, 27, 27);
+        font-size: 27px;
+    }
+    .card-text{
+        font-family: 'Manrope', sans-serif;
+        color: rgb(22, 22, 27);
+        font-size: 23px;
+    }
+    #number1{
+        border: 1px solid rgb(142, 142, 158);
+        width: 20vw;
+        text-align: center;
+    }
+    #number2{
+        border: 1px solid rgb(142, 142, 158);
+        width: 20vw;
+        text-align: center;
+    }
+    #number3{
+        border: 1px solid rgb(142, 142, 158);
+        width: 20vw;
+        text-align: center;
+    }
+    .form-select{
+        border: 1px solid rgb(142, 142, 158);
+        width: 20vw;
+        text-align: center;
+    }
+    .footer img{
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .footer p{
+      
+    }
+    .col-12 img{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+    .footer{
+       
+        background-color: rgb(106, 111, 111);
+        color: white;
+    }
+    #deliveryContainer button{
+        margin-top: 3.4%;
+        margin-bottom: 2%;
+    }
+    #deliveryContainer .form-select{
+        margin-top: 3%;
+    }
+ } */
+
+@media (max-width: 767.98px) { }
+
+/* @media (max-width: 610.98px) { 
+    body{
+        margin-left: 11%;
+        margin-right: 11%;
+        background-size: contain;
+        background-repeat: repeat;
+    }
+    .card{
+        text-align: center;
+    }
+
+    #carouselExampleDark img{
+        width: 100%;
+        height: 40vh;
+    }
+    #icon{
+        height: 40px;
+        width: 40px;
+        border: 1px solid rgb(171, 179, 171);
+        border-radius: 50px;
+    }
+    #navtitle{
+        color: gold;
+        font-family: 'Inspiration', cursive;
+        font-size: 27px;
+        font-weight: bolder;
+    }
+    #navbarNav{
+        margin-left: 50%;
+    }
+    .nav-link{
+        font-family: 'Akronim', cursive;
+        color: goldenrod;
+        font-size: 25px;
+
+    }
+    .nav-link:hover{
+        font-family: 'Inspiration', cursive;
+        font-size: 25px;
+        border: 2px solid gray;
+        background-color: aqua;
+        color: rgb(191, 194, 31);
+        border-radius: 70%; 
+    }
+    .card-img-top{
+        text-align: center;
+        height: 9vh;
+        width: 10vw;
+        margin-left: 26%;
+        border: 2px solid rgb(109, 109, 95);
+        border-radius: 50%;
+    }
+    .card h5{
+        color: rgb(59, 27, 27);
+        font-size: 20px;
+    }
+    .card-text{
+        font-family: 'Manrope', sans-serif;
+        color: rgb(22, 22, 27);
+        font-size: 15px;
+    }
+    #number1{
+        border: 1px solid rgb(142, 142, 158);
+        width: 17vw;
+        text-align: center;
+    }
+    #number2{
+        border: 1px solid rgb(142, 142, 158);
+        width: 17vw;
+        text-align: center;
+    }
+    #number3{
+        border: 1px solid rgb(142, 142, 158);
+        width: 17vw;
+        text-align: center;
+    }
+    .form-select{
+        border: 1px solid rgb(142, 142, 158);
+        width: 17vw;
+        text-align: center;
+    }
+    .footer img{
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .footer p{
+
+    }
+    .col-12 img{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+    .footer{
+       
+        background-color: rgb(106, 111, 111);
+        color: white;
+    }
+    #deliveryContainer button{
+        margin-top: 3.4%;
+        margin-bottom: 2%;
+    }
+    #deliveryContainer .form-select{
+        margin-top: 3%;
+    }
+} */
+
+@media (max-width: 450.98px) { }
+
+@media (max-width: 320.98px) { }
+
+@media (max-width: 380.98px) { 
+    body{
+        margin-left: 11%;
+        margin-right: 11%;
+        background-size: contain;
+        background-repeat: repeat;
+    }
+    .card{
+        text-align: center;
+    }
+
+    #carouselExampleDark img{
+        width: 100%;
+        height: 40vh;
+    }
+    #icon{
+        height: 30px;
+        width: 30px;
+        border: 1px solid rgb(171, 179, 171);
+        border-radius: 50px;
+    }
+    #navtitle{
+        color: gold;
+        font-family: 'Inspiration', cursive;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    #navbarNav{
+        margin-left: 50%;
+    }
+    .nav-link{
+        font-family: 'Akronim', cursive;
+        color: goldenrod;
+        font-size: 25px;
+
+    }
+    .nav-link:hover{
+        font-family: 'Inspiration', cursive;
+        font-size: 20px;
+        border: 2px solid gray;
+        background-color: aqua;
+        color: rgb(191, 194, 31);
+        border-radius: 70%; 
+    }
+    .card-img-top{
+        text-align: center;
+        height: 9vh;
+        width: 10vw;
+        margin-left: 26%;
+        border: 2px solid rgb(109, 109, 95);
+        border-radius: 50%;
+    }
+    .card h5{
+        color: rgb(59, 27, 27);
+        font-size: 10px;
+        margin-top: 3px;
+    }
+    .card-text{
+        font-family: 'Manrope', sans-serif;
+        color: rgb(22, 22, 27);
+        font-size: 9px;
+    }
+    #number1{
+        border: 1px solid rgb(142, 142, 158);
+        width: 12vw;
+        text-align: center;
+    }
+    #number2{
+        border: 1px solid rgb(142, 142, 158);
+        width: 12vw;
+        text-align: center;
+    }
+    #number3{
+        border: 1px solid rgb(142, 142, 158);
+        width: 12vw;
+        text-align: center;
+    }
+    .form-select{
+        border: 1px solid rgb(142, 142, 158);
+        width: 10vw;
+        text-align: center;
+    }
+    .footer img{
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .footer p{
+        /* margin-bottom: 2%; */
+    }
+    .col-12 img{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+    .footer{
+        /* margin-top: 1%; */
+        background-color: rgb(106, 111, 111);
+        color: white;
+    }
+    #deliveryContainer button{
+        margin-top: 3.4%;
+        margin-bottom: 2%;
+    }
+    #deliveryContainer .form-select{
+        margin-top: 3%;
+    }
+    .btn{
+        font-size: 8px;
+    }
 }
+
+@media (max-width: 300.98px) { }
+
