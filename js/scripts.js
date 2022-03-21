@@ -242,6 +242,17 @@ $(document).ready(function(){
 });
 
 
+//Implementing the delivery button
+$(document).ready(function(){
+    $('button#destination').click(function(e){
+        e.preventDefault();
+        let destination = $('#destination').find(":selected").text();
+        alert('Your order will be delivered to: '+ destination + " Thank you and come again!");
+    });
+})
+
+
+
 // let crustPrice;
 
 // // if (this.crustNa === "Cracker"){
