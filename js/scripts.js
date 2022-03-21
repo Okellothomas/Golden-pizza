@@ -96,18 +96,18 @@ $(document).ready(function(){
         let crustNa = $('#crust2').find(":selected").text();
         let toppingNa = $('#topping2').find(":selected").text();
 
-        const smallPrice = new Small(PizzaNo,pizzaCo,crustNa,toppingNa);
-        smallPrice.pizzaPrice();
+        const mediumPrice = new Medium(PizzaNo,pizzaCo,crustNa,toppingNa);
+        mediumPrice.pizzaPrice();
     });
 
-    function Small(pizano, pizaco, custna, toppingna){
+    function Medium(pizano, pizaco, custna, toppingna){
         this.pizaco = pizaco;
         this.pizano = pizano;
         this.custna = custna;
         this.toppingna = toppingna; 
     }
 
-    Small.prototype.pizzaPrice = function(){
+    Medium.prototype.pizzaPrice = function(){
 
         let custPrices;
 
@@ -185,18 +185,18 @@ $(document).ready(function(){
         let crustNa = $('#crust3').find(":selected").text();
         let toppingNa = $('#topping3').find(":selected").text();
 
-        const smallPrice = new Small(PizzaNo,pizzaCo,crustNa,toppingNa);
-        smallPrice.pizzaPrice();
+        const largePrice = new Large(PizzaNo,pizzaCo,crustNa,toppingNa);
+        largePrice.pizzaPrice();
     });
 
-    function Small(pizano, pizaco, custna, toppingna){
+    function Large(pizano, pizaco, custna, toppingna){
         this.pizaco = pizaco;
         this.pizano = pizano;
         this.custna = custna;
         this.toppingna = toppingna; 
     }
 
-    Small.prototype.pizzaPrice = function(){
+    Large.prototype.pizzaPrice = function(){
 
         let custPrices;
 
@@ -253,14 +253,16 @@ $(document).ready(function(){
             if(grandTotal <= 0){
                 alert('Make a purchase');
             }else{
-                alert('Your total cost is Large Pizza is Ksh.' + grandTotal + " Please choose your destination");
+                alert('Your total cost for Large Pizza is Ksh.' + grandTotal + " Please choose your destination");
                 $('#hide').show();
             } 
         });
     }
 })
-// Implementation for cancel button
-    // Reload the page
+/*
+ Implementation for the cancel button
+ Reload the page
+*/
 $(document).ready(function(){
     $('button#cancel').click(function(e){
         e.preventDefault();
