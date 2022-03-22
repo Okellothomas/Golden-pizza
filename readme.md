@@ -1,6 +1,6 @@
 # Golden Pizza
 
-![alt text]['assets/background/readme.png']
+![alt text][assets/background/readme.png]
 
 This is web application that enables clients to choose the type of pizza they want to purchase, then allow them 
 to chose the number of pizza they would want, output for them the total cost and ask them to give the location of delivery. 
