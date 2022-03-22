@@ -103,10 +103,10 @@
     margin-top: 3%;
 } 
 
-/* @media (max-width: 950px) {
+@media (max-width: 1100px) {
     body{
-        margin-left: 11%;
-        margin-right: 11%;
+        margin-left: 9%;
+        margin-right: 9%;
         background-size: contain;
         background-repeat: repeat;
     }
@@ -131,7 +131,7 @@
         font-weight: bolder;
     }
     #navbarNav{
-        margin-left: 50%;
+        margin-left: 45%;
     }
     .nav-link{
         font-family: 'Akronim', cursive;
@@ -156,13 +156,14 @@
         border-radius: 50%;
     }
     .card h5{
+        margin-top: 8px;
         color: rgb(59, 27, 27);
         font-size: 27px;
     }
     .card-text{
         font-family: 'Manrope', sans-serif;
         color: rgb(22, 22, 27);
-        font-size: 23px;
+        font-size: 20px;
     }
     #number1{
         border: 1px solid rgb(142, 142, 158);
@@ -210,119 +211,10 @@
     }
  } 
 
-@media (max-width: 767.98px) {
+ @media (max-width: 700px) {
     body{
-        margin-left: 11%;
-        margin-right: 11%;
-        background-size: contain;
-        background-repeat: repeat;
-    }
-    .card{
-        text-align: center;
-    }
-
-    #carouselExampleDark img{
-        width: 100%;
-        height: 34vh;
-    }
-    #icon{
-        height: 30px;
-        width: 30px;
-        border: 1px solid rgb(171, 179, 171);
-        border-radius: 50px;
-    }
-    #navtitle{
-        color: gold;
-        font-family: 'Inspiration', cursive;
-        font-size: 15px;
-        font-weight: bolder;
-    }
-    #navbarNav{
-        margin-left: 50%;
-    }
-    .nav-link{
-        font-family: 'Akronim', cursive;
-        color: goldenrod;
-        font-size: 25px;
-
-    }
-    .nav-link:hover{
-        font-family: 'Inspiration', cursive;
-        font-size: 20px;
-        border: 2px solid gray;
-        background-color: aqua;
-        color: rgb(191, 194, 31);
-        border-radius: 70%; 
-    }
-    .card-img-top{
-        text-align: center;
-        height: 10vh;
-        width: 17vw;
-        margin-left: 16%;
-        border: 2px solid rgb(109, 109, 95);
-        border-radius: 50%;
-    }
-    .card h5{
-        color: rgb(59, 27, 27);
-        font-size: 15px;
-        margin-top: 6px;
-    }
-    .card-text{
-        font-family: 'Manrope', sans-serif;
-        color: rgb(22, 22, 27);
-        font-size: 14px;
-    }
-    #number1{
-        border: 1px solid rgb(142, 142, 158);
-        width: 19vw;
-        text-align: center;
-    }
-    #number2{
-        border: 1px solid rgb(142, 142, 158);
-        width: 19vw;
-        text-align: center;
-    }
-    #number3{
-        border: 1px solid rgb(142, 142, 158);
-        width: 19vw;
-        text-align: center;
-    }
-    .form-select{
-        border: 1px solid rgb(142, 142, 158);
-        width: 20vw;
-        text-align: center;
-    }
-    .footer img{
-        margin-top: 1%;
-        margin-bottom: 1%;
-    }
-    .footer p{
-    }
-    .col-12 img{
-        height: 30px;
-        width: 30px;
-        border-radius: 50%;
-    }
-    .footer{
-        background-color: rgb(106, 111, 111);
-        color: white;
-    }
-    #deliveryContainer button{
-        margin-top: 3.4%;
-        margin-bottom: 2%;
-    }
-    #deliveryContainer .form-select{
-        margin-top: 3%;
-    }
-    .btn{
-        font-size: 14px;
-    }
- }
-
- @media (max-width: 610.98px) { 
-    body{
-        margin-left: 11%;
-        margin-right: 11%;
+        margin-left: 7%;
+        margin-right: 7%;
         background-size: contain;
         background-repeat: repeat;
     }
@@ -335,8 +227,8 @@
         height: 40vh;
     }
     #icon{
-        height: 40px;
-        width: 40px;
+        height: 50px;
+        width: 50px;
         border: 1px solid rgb(171, 179, 171);
         border-radius: 50px;
     }
@@ -373,227 +265,12 @@
     }
     .card h5{
         color: rgb(59, 27, 27);
-        font-size: 20px;
-    }
-    .card-text{
-        font-family: 'Manrope', sans-serif;
-        color: rgb(22, 22, 27);
-        font-size: 15px;
-    }
-    #number1{
-        border: 1px solid rgb(142, 142, 158);
-        width: 17vw;
-        text-align: center;
-    }
-    #number2{
-        border: 1px solid rgb(142, 142, 158);
-        width: 17vw;
-        text-align: center;
-    }
-    #number3{
-        border: 1px solid rgb(142, 142, 158);
-        width: 17vw;
-        text-align: center;
-    }
-    .form-select{
-        border: 1px solid rgb(142, 142, 158);
-        width: 17vw;
-        text-align: center;
-    }
-    .footer img{
-        margin-top: 1%;
-        margin-bottom: 1%;
-    }
-    .footer p{
-
-    }
-    .col-12 img{
-        height: 30px;
-        width: 30px;
-        border-radius: 50%;
-    }
-    .footer{
-       
-        background-color: rgb(106, 111, 111);
-        color: white;
-    }
-    #deliveryContainer button{
-        margin-top: 3.4%;
-        margin-bottom: 2%;
-    }
-    #deliveryContainer .form-select{
-        margin-top: 3%;
-    }
-}
-
- @media (max-width: 450.98px) { 
-    body{
-        margin-left: 1%;
-        margin-right: 1%;
-        background-size: contain;
-        background-repeat: repeat;
-    }
-    .card{
-        text-align: center;
-    }
-
-    #carouselExampleDark img{
-        width: 100%;
-        height: 34vh;
-    }
-    #icon{
-        height: 30px;
-        width: 30px;
-        border: 1px solid rgb(171, 179, 171);
-        border-radius: 50px;
-    }
-    #navtitle{
-        color: gold;
-        font-family: 'Inspiration', cursive;
-        font-size: 15px;
-        font-weight: bolder;
-    }
-    #navbarNav{
-        margin-left: 50%;
-    }
-    .nav-link{
-        font-family: 'Akronim', cursive;
-        color: goldenrod;
-        font-size: 25px;
-
-    }
-    .nav-link:hover{
-        font-family: 'Inspiration', cursive;
-        font-size: 20px;
-        border: 2px solid gray;
-        background-color: aqua;
-        color: rgb(191, 194, 31);
-        border-radius: 70%; 
-    }
-    .card-img-top{
-        text-align: center;
-        height: 10vh;
-        width: 17vw;
-        margin-left: 16%;
-        border: 2px solid rgb(109, 109, 95);
-        border-radius: 50%;
-    }
-    .card h5{
-        color: rgb(59, 27, 27);
-        font-size: 1px;
-        margin-top: 6px;
+        font-size: 18px;
     }
     .card-text{
         font-family: 'Manrope', sans-serif;
         color: rgb(22, 22, 27);
         font-size: 14px;
-    }
-    #number1{
-        border: 1px solid rgb(142, 142, 158);
-        width: 19vw;
-        text-align: center;
-    }
-    #number2{
-        border: 1px solid rgb(142, 142, 158);
-        width: 19vw;
-        text-align: center;
-    }
-    #number3{
-        border: 1px solid rgb(142, 142, 158);
-        width: 19vw;
-        text-align: center;
-    }
-    .form-select{
-        border: 1px solid rgb(142, 142, 158);
-        width: 20vw;
-        text-align: center;
-    }
-    .footer img{
-        margin-top: 1%;
-        margin-bottom: 1%;
-    }
-    .footer p{
-
-    }
-    .col-12 img{
-        height: 30px;
-        width: 30px;
-        border-radius: 50%;
-    }
-    .footer{
-        background-color: rgb(106, 111, 111);
-        color: white;
-    }
-    #deliveryContainer button{
-        margin-top: 3.4%;
-        margin-bottom: 2%;
-    }
-    #deliveryContainer .form-select{
-        margin-top: 3%;
-    }
-    .btn{
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 610.98px) { 
-    body{
-        margin-left: 5%;
-        margin-right: 5%;
-        background-size: contain;
-        background-repeat: repeat;
-    }
-    .card{
-        text-align: center;
-    }
-    
-    #carouselExampleDark img{
-        width: 100%;
-        height: 60vh;
-    }
-    #icon{
-        height: 50px;
-        width: 50px;
-        border: 1px solid rgb(171, 179, 171);
-        border-radius: 50px;
-    }
-    #navtitle{
-        color: gold;
-        font-family: 'Inspiration', cursive;
-        font-size: 27px;
-        font-weight: bolder;
-    }
-    #navbarNav{
-        margin-left: 50%;
-    }
-    .nav-link{
-        font-family: 'Akronim', cursive;
-        color: goldenrod;
-        font-size: 25px;
-    
-    }
-    .nav-link:hover{
-        font-family: 'Inspiration', cursive;
-        font-size: 25px;
-        border: 2px solid gray;
-        background-color: aqua;
-        color: rgb(191, 194, 31);
-        border-radius: 70%; 
-    }
-    .card-img-top{
-        text-align: center;
-        height: 23vh;
-        width: 11vw;
-        margin-left: 26%;
-        border: 2px solid rgb(109, 109, 95);
-        border-radius: 50%;
-    }
-    .card h5{
-        color: rgb(59, 27, 27);
-    }
-    .card-text{
-        font-family: 'Manrope', sans-serif;
-        color: rgb(22, 22, 27);
     }
     #number1{
         border: 1px solid rgb(142, 142, 158);
@@ -638,14 +315,14 @@
     }
     #deliveryContainer .form-select{
         margin-top: 3%;
-    } 
+    }
+ } 
 
-}
 
-@media (max-width: 380.98px) { 
+ @media (max-width: 450px) {
     body{
-        margin-left: 1%;
-        margin-right: 1%;
+        margin-left: 0%;
+        margin-right: 0%;
         background-size: contain;
         background-repeat: repeat;
     }
@@ -658,15 +335,15 @@
         height: 40vh;
     }
     #icon{
-        height: 30px;
-        width: 30px;
+        height: 50px;
+        width: 50px;
         border: 1px solid rgb(171, 179, 171);
         border-radius: 50px;
     }
     #navtitle{
         color: gold;
         font-family: 'Inspiration', cursive;
-        font-size: 15px;
+        font-size: 27px;
         font-weight: bolder;
     }
     #navbarNav{
@@ -680,7 +357,227 @@
     }
     .nav-link:hover{
         font-family: 'Inspiration', cursive;
+        font-size: 25px;
+        border: 2px solid gray;
+        background-color: aqua;
+        color: rgb(191, 194, 31);
+        border-radius: 70%; 
+    }
+    .card-img-top{
+        text-align: center;
+        height: 11vh;
+        width: 12vw;
+        margin-left: 26%;
+        border: 2px solid rgb(109, 109, 95);
+        border-radius: 50%;
+    }
+    .card h5{
+        color: rgb(59, 27, 27);
+        font-size: 14px;
+    }
+    .card-text{
+        font-family: 'Manrope', sans-serif;
+        color: rgb(22, 22, 27);
+        font-size: 12px;
+    }
+    #number1{
+        border: 1px solid rgb(142, 142, 158);
+        width: 20vw;
+        text-align: center;
+    }
+    #number2{
+        border: 1px solid rgb(142, 142, 158);
+        width: 20vw;
+        text-align: center;
+    }
+    #number3{
+        border: 1px solid rgb(142, 142, 158);
+        width: 20vw;
+        text-align: center;
+    }
+    .form-select{
+        border: 1px solid rgb(142, 142, 158);
+        width: 20vw;
+        text-align: center;
+    }
+    .footer img{
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .footer p{
+      font-size: 12px;
+    }
+    .col-12 img{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+    }
+    .footer{
+       
+        background-color: rgb(106, 111, 111);
+        color: white;
+    }
+    #deliveryContainer button{
+        margin-top: 3.4%;
+        margin-bottom: 2%;
+    }
+    #deliveryContainer .form-select{
+        margin-top: 3%;
+    }
+    .btn{
+        font-size: 14px;
+    }
+ } 
+
+  
+ @media (max-width: 380px) {
+    body{
+        margin-left: 0%;
+        margin-right: 0%;
+        background-size: contain;
+        background-repeat: repeat;
+    }
+    .card{
+        text-align: center;
+    }
+
+    #carouselExampleDark img{
+        width: 100%;
+        height: 40vh;
+    }
+    #icon{
+        height: 50px;
+        width: 50px;
+        border: 1px solid rgb(171, 179, 171);
+        border-radius: 50px;
+    }
+    #navtitle{
+        color: gold;
+        font-family: 'Inspiration', cursive;
+        font-size: 27px;
+        font-weight: bolder;
+    }
+    #navbarNav{
+        margin-left: 50%;
+    }
+    .nav-link{
+        font-family: 'Akronim', cursive;
+        color: goldenrod;
+        font-size: 25px;
+
+    }
+    .nav-link:hover{
+        font-family: 'Inspiration', cursive;
+        font-size: 25px;
+        border: 2px solid gray;
+        background-color: aqua;
+        color: rgb(191, 194, 31);
+        border-radius: 70%; 
+    }
+    .card-img-top{
+        text-align: center;
+        height: 9vh;
+        width: 10vw;
+        margin-left: 26%;
+        border: 2px solid rgb(109, 109, 95);
+        border-radius: 50%;
+    }
+    .card h5{
+        color: rgb(59, 27, 27);
+        font-size: 12px;
+    }
+    .card-text{
+        font-family: 'Manrope', sans-serif;
+        color: rgb(22, 22, 27);
+        font-size: 10px;
+    }
+    #number1{
+        border: 1px solid rgb(142, 142, 158);
+        width: 18vw;
+        text-align: center;
+    }
+    #number2{
+        border: 1px solid rgb(142, 142, 158);
+        width: 18vw;
+        text-align: center;
+    }
+    #number3{
+        border: 1px solid rgb(142, 142, 158);
+        width: 18vw;
+        text-align: center;
+    }
+    .form-select{
+        border: 1px solid rgb(142, 142, 158);
+        width: 18vw;
+        text-align: center;
+    }
+    .footer img{
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .footer p{
+      font-size: 12px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .col-12 img{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+    }
+    .footer{
+       
+        background-color: rgb(106, 111, 111);
+        color: white;
+    }
+    #deliveryContainer button{
+        margin-top: 3.4%;
+        margin-bottom: 2%;
+    }
+    #deliveryContainer .form-select{
+        margin-top: 3%;
+    }
+ } 
+
+
+ @media (max-width: 300px) {
+    body{
+        margin-left: 0%;
+        margin-right: 0%;
+        background-size: contain;
+        background-repeat: repeat;
+    }
+    .card{
+        text-align: center;
+    }
+
+    #carouselExampleDark img{
+        width: 100%;
+        height: 35vh;
+    }
+    #icon{
+        height: 30px;
+        width: 30px;
+        border: 1px solid rgb(171, 179, 171);
+        border-radius: 50px;
+    }
+    #navtitle{
+        color: gold;
+        font-family: 'Inspiration', cursive;
         font-size: 20px;
+        font-weight: bolder;
+    }
+    #navbarNav{
+        margin-left: 20%;
+    }
+    .nav-link{
+        font-family: 'Akronim', cursive;
+        color: goldenrod;
+        font-size: 15px;
+
+    }
+    .nav-link:hover{
+        font-family: 'Inspiration', cursive;
+        font-size: 25px;
         border: 2px solid gray;
         background-color: aqua;
         color: rgb(191, 194, 31);
@@ -697,149 +594,45 @@
     .card h5{
         color: rgb(59, 27, 27);
         font-size: 10px;
-        margin-top: 3px;
     }
     .card-text{
         font-family: 'Manrope', sans-serif;
         color: rgb(22, 22, 27);
-        font-size: 9px;
+        font-size: 7px;
     }
     #number1{
         border: 1px solid rgb(142, 142, 158);
-        width: 19vw;
+        width: 14vw;
         text-align: center;
     }
     #number2{
         border: 1px solid rgb(142, 142, 158);
-        width: 19vw;
+        width: 14vw;
         text-align: center;
     }
     #number3{
         border: 1px solid rgb(142, 142, 158);
-        width: 19vw;
+        width: 14vw;
         text-align: center;
     }
     .form-select{
         border: 1px solid rgb(142, 142, 158);
-        width: 20vw;
+        width: 11vw;
         text-align: center;
     }
     .footer img{
         margin-top: 1%;
         margin-bottom: 1%;
-    }
-    .footer p{
-    }
-    .col-12 img{
-        height: 30px;
-        width: 30px;
-        border-radius: 50%;
-    }
-    .footer{
-        background-color: rgb(106, 111, 111);
-        color: white;
-    }
-    #deliveryContainer button{
-        margin-top: 3.4%;
-        margin-bottom: 2%;
-    }
-    #deliveryContainer .form-select{
-        margin-top: 3%;
     }
     .btn{
-        font-size: 8px;
-    }
-}
-
-@media (max-width: 1025.98px) { 
-    body{
-        margin-left: 12%;
-        margin-right: 12%;
-        background-size: contain;
-        background-repeat: repeat;
-    }
-    .card{
-        text-align: center;
-    }
-    
-    #carouselExampleDark img{
-        width: 100%;
-        height: 67vh;
-    }
-    #icon{
-        height: 50px;
-        width: 50px;
-        border: 1px solid rgb(171, 179, 171);
-        border-radius: 50px;
-    }
-    #navtitle{
-        color: gold;
-        font-family: 'Inspiration', cursive;
-        font-size: 27px;
-        font-weight: bolder;
-    }
-    #navbarNav{
-        margin-left: 40%;
-    }
-    .nav-link{
-        font-family: 'Akronim', cursive;
-        color: goldenrod;
-        font-size: 25px;
-    
-    }
-    .nav-link:hover{
-        font-family: 'Inspiration', cursive;
-        font-size: 25px;
-        border: 2px solid gray;
-        background-color: aqua;
-        color: rgb(191, 194, 31);
-        border-radius: 70%; 
-    }
-    .card-img-top{
-        text-align: center;
-        height: 23vh;
-        width: 11vw;
-        margin-left: 26%;
-        border: 2px solid rgb(109, 109, 95);
-        border-radius: 50%;
-    }
-    .card h5{
-        color: rgb(59, 27, 27);
-    }
-    .card-text{
-        font-family: 'Manrope', sans-serif;
-        color: rgb(22, 22, 27);
-    }
-    #number1{
-        border: 1px solid rgb(142, 142, 158);
-        width: 20vw;
-        text-align: center;
-    }
-    #number2{
-        border: 1px solid rgb(142, 142, 158);
-        width: 20vw;
-        text-align: center;
-    }
-    #number3{
-        border: 1px solid rgb(142, 142, 158);
-        width: 20vw;
-        text-align: center;
-    }
-    .form-select{
-        border: 1px solid rgb(142, 142, 158);
-        width: 20vw;
-        text-align: center;
-    }
-    .footer img{
-        margin-top: 1%;
-        margin-bottom: 1%;
+        font-size: 7px;
     }
     .footer p{
-      
+      font-size: 10px;
     }
     .col-12 img{
-        height: 30px;
-        width: 30px;
+        height: 16px;
+        width: 16px;
         border-radius: 50%;
     }
     .footer{
@@ -853,111 +646,5 @@
     }
     #deliveryContainer .form-select{
         margin-top: 3%;
-    } 
-}
-
-@media (max-width: 300.98px) { 
-    body{
-        margin-left: 12%;
-        margin-right: 12%;
-        background-size: contain;
-        background-repeat: repeat;
     }
-    .card{
-        text-align: center;
-    }
-    
-    #carouselExampleDark img{
-        width: 100%;
-        height: 67vh;
-    }
-    #icon{
-        height: 50px;
-        width: 50px;
-        border: 1px solid rgb(171, 179, 171);
-        border-radius: 50px;
-    }
-    #navtitle{
-        color: gold;
-        font-family: 'Inspiration', cursive;
-        font-size: 27px;
-        font-weight: bolder;
-    }
-    #navbarNav{
-        margin-left: 50%;
-    }
-    .nav-link{
-        font-family: 'Akronim', cursive;
-        color: goldenrod;
-        font-size: 25px;
-    
-    }
-    .nav-link:hover{
-        font-family: 'Inspiration', cursive;
-        font-size: 25px;
-        border: 2px solid gray;
-        background-color: aqua;
-        color: rgb(191, 194, 31);
-        border-radius: 70%; 
-    }
-    .card-img-top{
-        text-align: center;
-        height: 23vh;
-        width: 11vw;
-        margin-left: 26%;
-        border: 2px solid rgb(109, 109, 95);
-        border-radius: 50%;
-    }
-    .card h5{
-        color: rgb(59, 27, 27);
-    }
-    .card-text{
-        font-family: 'Manrope', sans-serif;
-        color: rgb(22, 22, 27);
-    }
-    #number1{
-        border: 1px solid rgb(142, 142, 158);
-        width: 20vw;
-        text-align: center;
-    }
-    #number2{
-        border: 1px solid rgb(142, 142, 158);
-        width: 20vw;
-        text-align: center;
-    }
-    #number3{
-        border: 1px solid rgb(142, 142, 158);
-        width: 20vw;
-        text-align: center;
-    }
-    .form-select{
-        border: 1px solid rgb(142, 142, 158);
-        width: 20vw;
-        text-align: center;
-    }
-    .footer img{
-        margin-top: 1%;
-        margin-bottom: 1%;
-    }
-    .footer p{
-      
-    }
-    .col-12 img{
-        height: 30px;
-        width: 30px;
-        border-radius: 50%;
-    }
-    .footer{
-       
-        background-color: rgb(106, 111, 111);
-        color: white;
-    }
-    #deliveryContainer button{
-        margin-top: 3.4%;
-        margin-bottom: 2%;
-    }
-    #deliveryContainer .form-select{
-        margin-top: 3%;
-    } 
-}
- */
+ } 
