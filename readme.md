@@ -8,9 +8,9 @@ This is the sole work of Okello Thomas Olal.
 
 
 ## List of Activities. 
-* [Project description]
-* [Installation and setup]
-* [Technologies Used]
+* Project description
+* Installation and setup
+* Technologies Used
 
 ## Project Description
 

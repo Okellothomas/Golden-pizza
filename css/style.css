@@ -103,7 +103,7 @@
     margin-top: 3%;
 } 
 
-@media (max-width: 950px) {
+/* @media (max-width: 950px) {
     body{
         margin-left: 11%;
         margin-right: 11%;
@@ -297,7 +297,6 @@
         margin-bottom: 1%;
     }
     .footer p{
-        /* margin-bottom: 2%; */
     }
     .col-12 img{
         height: 30px;
@@ -305,7 +304,6 @@
         border-radius: 50%;
     }
     .footer{
-        /* margin-top: 1%; */
         background-color: rgb(106, 111, 111);
         color: white;
     }
@@ -962,4 +960,4 @@
         margin-top: 3%;
     } 
 }
-
+ */
