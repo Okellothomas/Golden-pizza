@@ -279,6 +279,6 @@ $(document).ready(function(){
             alert('Choose your destination');
         }else{
             alert('Your order will be delivered to: '+ destination + " Thank you and come again!");
-        }   
+        } 
     });
 });
