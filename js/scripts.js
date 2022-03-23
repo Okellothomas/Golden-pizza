@@ -273,12 +273,13 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('button#destination').click(function(e){
         e.preventDefault();
-        let destination = $('#destination').find(":selected").text();
+        let destination = $('input#delivery').val().toLowerCase();
+        // let Destination = prompt("Enter your Destination").toLowerCase().append('input#delivery');
 
-        if(destination.toLowerCase() == 'choose destination'){
-            alert('Choose your destination');
+        if(destination == ''){
+            alert('Enter your destination')
         }else{
-            alert('Your order will be delivered to: '+ destination + " Thank you and come again!");
-        } 
+            alert('Your order will be delivered to: '+ destination + " at Ksh.300 " + " Thank you and come again!");
+        }
     });
 });
